@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-body{
+  padding: 50px;
+}
+
+.app-wrap{
+  padding: 50px;
+  border: 1px solid #999;
+  border-radius: 20px;
+  
+}
+
+.app-wrap label{
+  margin: 0 0 10px 0;
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.app-wrap form input{
+  display: block;
+  border: 2px solid #999;
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  margin: 0 0 10px 0;
+  padding: 0 10px;
+}
+
+.app-wrap form button{
+  padding: 10px;
+  background-color: rgb(114,201,24);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.app-result{
+  padding: 10px;
+  border: 1px solid #999;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.app-result p{
+  font-weight: 500;
+  border-bottom: 1px solid #999;
+}
+
+.app-des{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(114,201,24,0.2);
+}
+
+.app-des h1{
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(114,201,24,1);
+  margin: 0 0 20px 0;
+}
+
+.app-des p{
+  margin: 0 0 10px 0;
+}
